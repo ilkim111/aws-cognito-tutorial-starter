@@ -26,6 +26,7 @@ h1 {
 .navbar, .navbar-end, .navbar-menu, .navbar-start {
   align-items: stretch !important;
   display: flex !important;
+  
 }
 
 .navbar-menu {
@@ -33,7 +34,7 @@ h1 {
   flex-shrink: 0 !important;
   box-shadow: none !important;
   padding: 0 !important;
-}
+  }
 
 .navbar-item {
   display: flex !important;
@@ -60,4 +61,39 @@ body {
 
 .buttons {
   margin-left: 1em;
+  }
+
+.ium-buttons {
+  background-color: #0054A3;
+  color: #ffffff;
+  justify-content: center;
+  padding-top: calc(.375em - 1px);
+  padding-bottom: calc(.375em - 1px);
+  padding-left: .75em;
+  padding-right: .75em;
+  border-width: 1px;
+  border-radius: 4px;
+  box-shadow: none;
+  display: flex;
+  cursor: pointer;
+  height: 2.25em;
+  font-size: 16px;
+  border: #0054A3;
+  font-weight: bold;
+  box-sizing: inherit;
 }
+
+.ium-buttons:hover {
+  background-color: #0030A4;
+}
+
+.ium-buttons-light {
+  background-color: #0054A3;
+  border: #0054A3;
+   
+}
+
+.ium-buttons-light:hover {
+  background-color: #0030A4;
+}
+

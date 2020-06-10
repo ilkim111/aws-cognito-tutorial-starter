@@ -113,7 +113,7 @@ class ForgotPasswordVerification extends Component {
             </div>
             <div className="field">
               <p className="control">
-                <button className="button is-success">
+                <button className="ium-buttons">
                   Submit
                 </button>
               </p>

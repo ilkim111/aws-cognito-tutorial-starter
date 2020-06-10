@@ -119,7 +119,7 @@ class ChangePassword extends Component {
             </div>
             <div className="field">
               <p className="control">
-                <button className="button is-success">
+                <button className="ium-buttons">
                   Change password
                 </button>
               </p>
